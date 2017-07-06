@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'Castle';
+    src: url("fonts/BLKCHCRY.TTF");
+}
+@font-face{
+    font-family: 'Haunt';
+    src: url("fonts/Hantu_Kom_Kom.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    background: url("img/background.jpg") no-repeat no-repeat;
+    background-size: cover;
+}
+header{
+    width: 70%;
+    background: url("img/castle.jpg") no-repeat no-repeat;
+    background-size: cover;
+    letter-spacing: 2px;
+    height: 700px;
+    margin: 0px auto;
+    padding: 0px;
+}
+header div#logo img{
+    width: 150px;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    opacity: 0.9;
+
+}
+header nav{
+    
+    display: flex;
+    flex-direction: row; 
+    opacity: 0.9;
+    height: 84px;
+    margin: 0px;
+    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 10%, rgba(89,89,89,1) 32%, rgba(102,102,102,1) 53%, rgba(71,71,71,1) 71%, rgba(0,0,0,1) 80%, rgba(17,17,17,1) 86%, rgba(43,43,43,1) 91%, rgba(44,44,44,1) 97%, rgba(28,28,28,1) 100%);
+}
+header nav ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-items: center;   
+    padding: 0px;
+    }
+header nav li{
+   display: flex;
+   margin-left: 0px;
+   border-radius: 10px;
+   text-align: center;
+   height: 62px;
+  
+}
+header nav li a{
+    font-family: 'Castle', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    font-size: 1.09em;
+    padding: 10px;
+    border-radius: 10px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    
+}
+header nav li a:hover{
+box-shadow: inset 0px 0px 26px 3px rgba(245,250,245,1);
+}
+header nav li:hover{
+box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
+}
+main{
+    padding: 0px;
+    margin: 0px auto;
+    width: 70%;
+}
+main div{
+     display: flex;
+}
+
+h1{
+    margin: 0px auto;
+    text-align: center;
+}
+main img#portrait{
+    width: 90%;
+    min-width: 250px;
+}
+section{
+    width: 50%;
+}
+.decoration{
+    width: 300px;
+    min-width: 300px;
+}
+.img-container{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+figure{
+    margin: 30px 0px 30px 10px;
+    padding: 0px;
+    width: 45%;
+    text-align: center;
+} 
+.img-container img{
+    height: 150px;
+    width: 100%;
+
+}
+div#part-two img{
+    height: 250px;
+    width: 100%;
+}
+section.left p{
+    font-size: 1.2em;
+}
