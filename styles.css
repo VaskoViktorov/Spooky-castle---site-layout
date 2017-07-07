@@ -10,7 +10,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-size: 15px;
-    background: url("img/background.jpg") no-repeat no-repeat;
+    background: url("img/background1.jpg") no-repeat no-repeat;
     background-size: cover;
 }
 header{
@@ -21,6 +21,9 @@ header{
     height: 700px;
     margin: 0px auto;
     padding: 0px;
+    box-shadow: 3px -1px 103px -17px rgba(0,0,0,1);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 header div#logo img{
     width: 150px;
@@ -82,38 +85,62 @@ main{
 main div{
      display: flex;
 }
-
-h1{
+main div.top{
+    align-items: center;
+}
+main h1{
+    font-family: 'Castle', sans-serif;
     margin: 0px auto;
     text-align: center;
+    padding: 20px;
+    
 }
 main img#portrait{
     width: 90%;
     min-width: 250px;
+    box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
+}
+main div.middle{
+        box-shadow: 3px -1px 103px -17px rgba(0,0,0,1);
+        border-radius: 50px;
 }
 section{
     width: 50%;
+    background:radial-gradient(ellipse at center, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.15) 0%, rgba(85,85,85,1) 99%, rgba(84,84,84,1) 100%);
 }
 .decoration{
-    width: 300px;
-    min-width: 300px;
+    width: 33%;  
+}
+section.right {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+section.left{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+section.left article{
+    text-align: center;
 }
 .img-container{
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 figure{
-    margin: 30px 0px 30px 10px;
-    padding: 0px;
+    margin: 45px 15px 30px 0px;
+    padding: 0px 0px 25px 0px;
     width: 45%;
     text-align: center;
 } 
 .img-container img{
     height: 150px;
     width: 100%;
-
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 3px -1px 103px -17px rgba(0,0,0,1);
+    vertical-align: middle;
 }
 div#part-two img{
     height: 250px;
@@ -121,4 +148,23 @@ div#part-two img{
 }
 section.left p{
     font-size: 1.2em;
+    line-height: 30px;
+    text-align: justify;
+    margin: 30px 25px 18px 25px; 
+}
+section.left p::first-letter{
+    font-family: 'Castle', sans-serif;
+    font-size: 2em;
+}
+figcaption{
+    font-size: 20px;
+    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 10%, rgba(89,89,89,1) 32%, rgba(102,102,102,1) 53%, rgba(71,71,71,1) 71%, rgba(0,0,0,1) 80%, rgba(17,17,17,1) 86%, rgba(43,43,43,1) 91%, rgba(44,44,44,1) 97%, rgba(28,28,28,1) 100%);
+    height: 40px;
+    color: lightgrey;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 14px;
+    font-family: 'Castle', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px; 
 }
