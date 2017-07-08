@@ -58,6 +58,7 @@
     }
     .img-container {
         justify-content: center;
+        margin-top: 20px;
     }
     figure{
         margin: 0px;
@@ -72,6 +73,12 @@
     figcaption{
         width: 90%;
         margin: 0px auto 20px auto;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .bottom .commenter{
+    width: 25%;
     }
 }
 @media screen and (max-width: 480px){
