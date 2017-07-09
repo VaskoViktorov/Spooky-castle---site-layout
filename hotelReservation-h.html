@@ -5,7 +5,7 @@
     <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
     <title>Road's End</title>
 
-    <link href="styles-h.css" rel="stylesheet" media="all"/>
+    <link href="styles.css" rel="stylesheet" media="all"/>
     <link href="responsive.css" rel="stylesheet" media="all"/>
     <link href="animation.css" rel="stylesheet" media="all"/>
 
@@ -14,6 +14,9 @@
 <header>
     <div id="logo"><a href="#"><img src="img/logo.jpg"></a></div>
     <nav>
+        <img src="img/left.png" alt="decor" class="decoration left-dec">
+        <a href="#" id="menu-icon"></a>
+        <img src="img/right.png" alt="decor" class="decoration right-dec">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Services</a></li>
@@ -36,11 +39,12 @@
         <article>
         <p>Road's End is a famous castle in easternmost point in England near the shore. 
         It was build in 16th century by the famous slave trader Jason Wicked. Who later
-        made <span class="outter"><span class="inner">this</span></span> caste his graveyard. After that the castle was abandoned for three centuries,
-        but sir <span class="outter"><span class="inner">Will</span></span> Colen bought the land and rebuilded the castle. Later the construction
-        was used as hospital in the World War II. After that it was sold off to us, and we  
-        let it <span class="outter"><span class="inner">be</span></span> a hotel-museum, a place where you can relive history. So fellow reader this
-        is <span class="outter"><span class="inner">your</span></span> chance to be part of the castle history. Come and meet us at Road`s <span class="outter"><span class="inner">End</span></span>.</p>
+        made <span class="outter"><span class="inner">this</span></span> caste his graveyard. 
+        After that the castle was abandoned for three centuries, but sir <span class="outter"><span class="inner">Will</span></span>
+        Colen bought the land and rebuilded the castle. Later the construction was used as hospital in the World War II. After
+        that it was sold off to us, and we  let it <span class="outter"><span class="inner">be</span></span> a hotel-museum,
+        a place where you can relive history. So fellow reader this is <span class="outter"><span class="inner">your</span></span>
+        chance to be part of the castle history. Come and meet us at Road`s <span class="outter"><span class="inner">End</span></span>.</p>
         <figure>
         <img id="portrait" src="img/theGuy-h.jpg" alt="Jason Wicked">
         <figcaption>Jason Wicked</figcaption>
@@ -100,7 +104,7 @@
             <input type="text" id="lastName" placeholder="Last Name">
              <label for="email">First Name</label>
             <input type="email" id="email" placeholder="Email">
-            <a href="hotelReservation.html"><span>Book now</span></a>
+            <a href="hotelReservation.html" class="button"><span>Book now</span></a>
         </form>     
     </div>
     <div class="bottom-head">
@@ -135,6 +139,27 @@
                     next year to  relax <span class="outter"><span class="inner">at</span></span> the garden and to see the beautiful <span class="outter"><span class="inner">night</span></span> sky.</p>
             </div>
         </div>
+        <fieldset class="response">
+            <legend>Write a comment</legend>
+            <label for="name-comm">Name</label>
+            <input type="text" placeholder="Name" id="name-comm">
+            <label for="stars">stars</label>
+            <select id="stars">
+                <option>&star;&star;&star;&star;&star;</option>
+                <option>&star;&star;&star;&star;</option>
+                <option>&star;&star;&star;</option>
+                <option>&star;&star;</option>
+                <option>&star;</option>
+            </select>
+            <label for="comment-comm">Comment</label>
+            <textarea id="comment-comm"  placeholder="Write here..." rows="5"></textarea>
+            <a href="hotelReservation.html" class="button submit"><span >Submit</span></a>
+        </fieldset>
 </main>
+<footer>
+    <p>Html</p>
+    <p>&copy; Road's end</p>
+    <p>Softuni project defence</p>
+</footer>
 </body>
 </html>
