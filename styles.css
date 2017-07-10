@@ -3,8 +3,8 @@
     src: url("fonts/BLKCHCRY.TTF");
 }
 @font-face{
-    font-family: 'Haunt';
-    src: url("fonts/Hantu_Kom_Kom.ttf");
+    font-family: 'Awesome';
+    src: url("fonts/fontawesome-webfont.ttf");
 }
 body{
     margin: 0px;
@@ -49,7 +49,9 @@ header nav ul{
     margin: 0px;
     align-items: center;   
     padding: 0px;
-    }
+    width: 100%;
+    justify-content: space-around;
+}
 header nav li{
    display: flex;
    margin-left: 0px;
@@ -72,10 +74,10 @@ header nav li a{
     
 }
 header nav li a:hover{
-box-shadow: inset 0px 0px 26px 3px rgba(245,250,245,1);
+    box-shadow: inset 0px 0px 26px 3px rgba(245,250,245,1);
 }
 header nav li:hover{
-box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
+    box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
 }
 main{
     padding: 0px;
@@ -263,10 +265,10 @@ input#date, input#number{
     margin: 30px auto;
 }
 .button span:hover{
-box-shadow: inset 0px 0px 26px 3px rgba(245,250,245,1);
+    box-shadow: inset 0px 0px 26px 3px rgba(245,250,245,1);
 }
 .button:hover{
-box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
+    box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
 }
 .bottom{
     flex-direction: column;
@@ -312,6 +314,7 @@ box-shadow: 0px 0px 26px 3px rgba(245,250,245,1);
 div.comment span.star, select#stars{
     color: yellow;
     font-size: 1.2em;
+    font-family: 'Awesome', sans-serif;
 }
 
 div.comment{
@@ -354,7 +357,6 @@ footer{
     margin: 20px 0px 0px 0px;
     display: flex;
     flex-direction: row;
- 
 }
 footer p{
     flex-grow: 1;
@@ -390,4 +392,9 @@ span.inner{
     border-radius: 500px;
     padding: 2px;
     white-space: nowrap; 
+}
+.h{
+    width: 70%;
+    background: url("img/castle-h.jpg") no-repeat no-repeat;
+    background-size: cover;
 }
