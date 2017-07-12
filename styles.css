@@ -303,6 +303,10 @@ input#date, input#number{
     width: 20%;
     margin-right: 25px;
 }
+.bottom .commenter p{
+    display: flex;
+    padding-left: 25px;
+}
 .bottom .comment p:first-child{
     margin-top: 20px;
 }
@@ -397,4 +401,14 @@ span.inner{
     width: 70%;
     background: url("img/castle-h.jpg") no-repeat no-repeat;
     background-size: cover;
+}
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px
+}
+.footer-img img{
+    width: 35px;
+    height: 30px;
+    margin-top: 7px;
 }

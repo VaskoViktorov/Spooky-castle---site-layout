@@ -108,6 +108,9 @@
         text-align: justify;
         margin-bottom: 10px;
     }
+    .bottom .commenter p{
+    padding-left: 0px;
+    }
     fieldset.response {
         padding: 8px;
     }
